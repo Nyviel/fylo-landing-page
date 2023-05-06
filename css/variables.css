@@ -1,0 +1,29 @@
+:root {
+	--clr-primary-100: hsl(217, 28%, 15%);
+	--clr-primary-200: hsl(218, 28%, 13%);
+	--clr-primary-300: hsl(216, 53%, 9%);
+	--clr-primary-400: hsl(219, 30%, 18%);
+
+	--clr-accent-100: hsl(176, 68%, 64%);
+	--clr-accent-200: hsl(198, 60%, 50%);
+	--clr-accent-300: hsl(0, 100%, 63%);
+
+	--fw-regular: 400;
+	--fw-bold: 700;
+
+	/* General font */
+	--ff-body: "Open Sans", sans-serif;
+
+	/*  Headings, Call-to-actions, Header Navigation */
+	--ff-secondary: "Raleway", sans-serif;
+
+	--size-100: 0.25rem;
+	--size-200: 0.5rem;
+	--size-300: 0.75rem;
+	--size-400: 1rem;
+	--size-500: 1.5rem;
+	--size-600: 2rem;
+	--size-700: 3rem;
+	--size-800: 4rem;
+	--size-900: 5rem;
+}
