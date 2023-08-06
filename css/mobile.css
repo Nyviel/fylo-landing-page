@@ -1,0 +1,149 @@
+@media (max-width: 31.25em) {
+	#primary-logo {
+		width: 85px;
+	}
+}
+
+@media (max-width: 80em) {
+	form {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.quotes__wrapper {
+		flex-flow: wrap;
+	}
+
+	.quote {
+		width: 90%;
+	}
+}
+
+@media (max-width: 60em) {
+	.introduction__wrapper > img {
+		width: 60%;
+	}
+
+	.early-access__wrapper {
+		padding: var(--size-350) var(--size-450);
+	}
+}
+@media (max-width: 50em) {
+	.introduction__wrapper > img {
+		width: 70%;
+	}
+}
+@media (max-width: 40em) {
+	.introduction__wrapper > img {
+		width: 80%;
+	}
+}
+@media (max-width: 30em) {
+	.introduction {
+		align-items: start;
+		padding-top: var(--size-900);
+	}
+
+	.introduction__wrapper > img {
+		width: 90%;
+	}
+
+	.features__wrapper {
+		grid-template-columns: 1fr;
+	}
+
+	.productive__wrapper {
+		flex-direction: column;
+	}
+
+	.productive__text > h2 {
+		font-size: var(--size-300);
+		width: 100%;
+	}
+
+	.quotes__wrapper {
+		flex-direction: column;
+		gap: var(--size-300);
+	}
+
+	.quote {
+		width: 100%;
+		height: fit-content;
+	}
+
+	footer {
+		padding: var(--size-200);
+		padding-top: var(--size-900);
+	}
+
+	.footer__content {
+		flex-direction: column;
+		margin-top: var(--size-500);
+	}
+
+	.footer__content:last-child {
+		margin-left: auto;
+	}
+
+	#footer-navigation {
+		columns: 1;
+	}
+
+	.content__contact {
+		flex-direction: column;
+		align-items: start;
+		gap: var(--size-400);
+	}
+
+	.contact__address {
+		padding: 0;
+	}
+
+	.contact__address,
+	.contact__phone,
+	.contact__email {
+		gap: var(--size-250);
+	}
+
+	#footer-logo {
+		width: 60%;
+	}
+
+	.content__navigation {
+		margin-top: var(--size-500);
+		margin-bottom: var(--size-400);
+	}
+
+	.quotes {
+		margin-bottom: 18rem;
+	}
+
+	.early-access__wrapper {
+		width: 90%;
+	}
+
+	.early-access__wrapper > h3 {
+		font-size: var(--size-350);
+	}
+
+	input[type="submit"] {
+		width: 100%;
+	}
+
+	footer {
+		padding-top: 18rem;
+	}
+}
+@media (max-width: 23.439em) {
+	.introduction__wrapper {
+		width: 90%;
+	}
+
+	.introduction__wrapper > h1 {
+		font-size: var(--size-350);
+	}
+
+	.introduction__wrapper > img {
+		width: 100%;
+	}
+}
