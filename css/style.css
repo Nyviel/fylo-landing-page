@@ -37,6 +37,12 @@ body {
 	font-family: var(--ff-secondary);
 }
 
+#primary-navigation a:hover,
+#primary-navigation a:focus {
+	color: white;
+	border-bottom: 1px solid white;
+}
+
 .introduction {
 	display: flex;
 	justify-content: center;
@@ -91,6 +97,11 @@ body {
 	);
 
 	padding: var(--size-200) var(--size-600);
+}
+
+.introduction__wrapper > button:hover,
+.introduction__wrapper > button:focus {
+	filter: brightness(120%);
 }
 
 .features__wrapper {
@@ -341,7 +352,8 @@ footer {
 
 #footer-navigation a:hover,
 #footer-navigation a:focus {
-	color: var(--clr-accent-100);
+	color: white;
+	border-bottom: 1px solid white;
 }
 
 .social-list {
